@@ -1,0 +1,57 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-8.3.4, pluggy-1.5.0 -- /home/levz/projects/homework3/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/levz/projects/homework3
+configfile: pytest.ini
+testpaths: tests
+plugins: cov-6.0.0, pylint-0.21.0
+collecting ... collected 30 items
+
+tests/__init__.py::PYLINT SKIPPED (file(s) previously passed pylint ...) [  3%]
+tests/test_calculation.py::PYLINT SKIPPED (file(s) previously passed...) [  6%]
+tests/test_calculation.py::test_calculation_operations[10-5-add-15] PASSED [ 10%]
+tests/test_calculation.py::test_calculation_operations[10-5-subtract-5] PASSED [ 13%]
+tests/test_calculation.py::test_calculation_operations[10-5-multiply-50] PASSED [ 16%]
+tests/test_calculation.py::test_calculation_operations[10-2-divide-5] PASSED [ 20%]
+tests/test_calculation.py::test_calculation_operations[10.5-0.5-add-11.0] PASSED [ 23%]
+tests/test_calculation.py::test_calculation_operations[10.5-0.5-subtract-10.0] PASSED [ 26%]
+tests/test_calculation.py::test_calculation_operations[10.5-2-multiply-21.0] PASSED [ 30%]
+tests/test_calculation.py::test_calculation_operations[10-0.5-divide-20] PASSED [ 33%]
+tests/test_calculation.py::test_calculation_repr PASSED                  [ 36%]
+tests/test_calculation.py::test_divide_by_zero PASSED                    [ 40%]
+tests/test_calculations.py::PYLINT SKIPPED (file(s) previously passe...) [ 43%]
+tests/test_calculations.py::test_add_calculation PASSED                  [ 46%]
+tests/test_calculations.py::test_get_history PASSED                      [ 50%]
+tests/test_calculations.py::test_clear_history PASSED                    [ 53%]
+tests/test_calculations.py::test_get_latest PASSED                       [ 56%]
+tests/test_calculations.py::test_find_by_operation PASSED                [ 60%]
+tests/test_calculations.py::test_get_latest_with_empty_history PASSED    [ 63%]
+tests/test_calculator.py::PYLINT SKIPPED (file(s) previously passed ...) [ 66%]
+tests/test_calculator.py::test_addition PASSED                           [ 70%]
+tests/test_calculator.py::test_subtraction PASSED                        [ 73%]
+tests/test_calculator.py::test_multiplication PASSED                     [ 76%]
+tests/test_calculator.py::test_division PASSED                           [ 80%]
+tests/test_operations.py::PYLINT SKIPPED (file(s) previously passed ...) [ 83%]
+tests/test_operations.py::test_operation_add PASSED                      [ 86%]
+tests/test_operations.py::test_operation_subtract PASSED                 [ 90%]
+tests/test_operations.py::test_operation_multiply PASSED                 [ 93%]
+tests/test_operations.py::test_operation_divide PASSED                   [ 96%]
+tests/test_operations.py::test_divide_by_zero PASSED                     [100%]
+
+---------- coverage: platform linux, python 3.12.3-final-0 -----------
+Name                         Stmts   Miss  Cover
+------------------------------------------------
+calculator/__init__.py          21      0   100%
+calculator/calculation.py       12      0   100%
+calculator/calculations.py      19      0   100%
+calculator/operations.py        10      0   100%
+tests/__init__.py                0      0   100%
+tests/test_calculation.py       15      0   100%
+tests/test_calculations.py      30      0   100%
+tests/test_calculator.py         9      0   100%
+tests/test_operations.py        19      0   100%
+------------------------------------------------
+TOTAL                          135      0   100%
+
+
+======================== 25 passed, 5 skipped in 0.09s =========================

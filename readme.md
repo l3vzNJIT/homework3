@@ -14,3 +14,9 @@ The calculator must meet the following spec:
 7. Implement a pytest fixture to test the
 
 *note - item 7 is cut off in professor's document
+
+
+## NOTE:
+
+I used a 'standard' pylint, so this has 2 spaces instead of 4 to get tests to pass
+I added the test results to prove 100% coverage and all tests passed

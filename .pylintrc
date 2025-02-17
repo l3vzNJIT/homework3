@@ -129,6 +129,9 @@ disable=R,
         wrong-import-order,
         xrange-builtin,
         zip-builtin-not-iterating,
+	unused-argument,
+	line-too-long,
+	redefined-outer-name
 
 
 [REPORTS]
